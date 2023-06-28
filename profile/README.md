@@ -1,6 +1,6 @@
 # LiQuiBit
 
-## Open source code for a Dash7 enabled kit of LiQuiBit
+## Open source code for the DASH7 enabled devices of LiQuiBit
 
 ### Who are we?
 
@@ -10,12 +10,16 @@ Check out [our website](https://www.liquibit.be)!
 
 ### Push7
 
-Push7 Is a development kit board we are selling that include numerous sensors: light, temperature, humidity, acceleration, infrared movement, magnetic field and three user buttons. It has a small formfactor and a good batterylife with a rechargable battery and is ready for your projects!
+A devkit containing all sorts of sensors, three buttons and DASH7 communication while being battery powered and rechargeable. By default, the devkit contains a program able to send all relevant sensor data over DASH7 with configurable interval settings. The power consumption of the device is very low and the lifetime for the default application is about 1 year. All of this in a small form factor contained in a custom 3D printed enclosure allowing access to the buttons and USB port.
+
+### Link7
+
+This development kit is designed to facilitate the connection of various external sensors using DASH7 technology. It provides access to all micro-controller pins and features a charging circuit for battery power, as well as an FTDI for USB-based serial communication. Its versatility allows you to attach a wide range of sensors to suit your needs.
 
 ### IOWay
 
-IOWay is a gateway module connecting the Dash7 network to a Wi-Fi network. It can be powered through the USB-connector and is easy to set up. 
+IOWay is a gateway module connecting the DASH7 network over Wi-Fi or ethernet. It can be powered through the USB-connector or over Power over Ethernet and is easy to set up. 
 
 ### Programming
 
-Both boards can be programmed without any extra hardware. Visit the [LiQuiBit repository](https://github.com/LiQuiBit/LiQuiBit) to program the boards yourself.
+All boards can be programmed without any extra hardware. Visit the [LiQuiBit repository](https://github.com/LiQuiBit/LiQuiBit) to program the boards yourself.
